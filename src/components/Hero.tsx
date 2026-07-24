@@ -1,4 +1,4 @@
-import fotoPerfil from '../assets/fotoPerfil.jpg';
+import fotoPerfil from '../assets/fotoPerfil.jpeg';
 
 const Hero = () => {
   return (
