@@ -1,4 +1,4 @@
-import fotoPerfil from 'assets/fotoPerfil.jpg';
+import fotoPerfil from '../assets/fotoPerfil.jpg';
 
 const Hero = () => {
   return (
@@ -32,7 +32,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-6 text-center">
-            <img src={fotoPerfil} alt="Foto de perfil" className="hero-image img-fluid" />  
+            <img src={fotoPerfil} alt="Foto de perfil" className="hero-image img-fluid"  />
+ 
           </div>
         </div>
       </div>
