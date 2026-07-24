@@ -1,3 +1,5 @@
+import fotoPerfil from '../assets/Foto Perfil.jpeg';
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -30,7 +32,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-6 text-center">
-            <img src="/assets/Foto Perfil.jpeg" alt="Daniela Acevedo" className="hero-image img-fluid" />
+            <img src={fotoPerfil} alt="Foto de perfil" className="hero-image img-fluid" />  
           </div>
         </div>
       </div>
