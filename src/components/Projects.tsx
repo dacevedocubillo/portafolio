@@ -27,8 +27,7 @@ const Projects = () => {
                   <span>Entity Framework</span>
                 </div>
                 <div className="project-buttons">
-                  <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
-                  <a href="#" className="btn btn-outline-light"><i className="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                  <a href="https://github.com/dacevedocubillo/WebAdminSystem" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
                 </div>
               </div>
             </div>
@@ -50,8 +49,7 @@ const Projects = () => {
                   <span>Entity Framework</span>
                 </div>
                 <div className="project-buttons">
-                  <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
-                  <a href="#" className="btn btn-outline-light"><i className="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                  <a href="https://github.com/dacevedocubillo/VAP-Manager" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
                 </div>
               </div>
             </div>
@@ -71,8 +69,7 @@ const Projects = () => {
                   <span>CSS</span>
                 </div>
                 <div className="project-buttons">
-                  <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
-                  <a href="#" className="btn btn-outline-light"><i className="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                  <a href="https://github.com/dacevedocubillo/Alura-Geek" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
                 </div>
               </div>
             </div>
