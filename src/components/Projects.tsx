@@ -15,7 +15,31 @@ const Projects = () => {
             <div className="project-card">
               <img src="assets/project1.jpg" className="img-fluid project-image" alt="Business Management System" />
               <div className="project-content">
-                <h3>Business Management System</h3>
+                <h3>Administrative Website for a Family Business - Academic Project</h3>
+                <p>Built a business management web app using C#, ASP.NET
+                  Core/MVC, SQL Server, Entity Framework, and
+                  JavaScript. Focused on scalability, secure data handling,
+                  and maintainable architecture.</p>
+                <div className="project-tech">
+                  <span>C#</span>
+                  <span>ASP.NET Core</span>
+                  <span>SQL Server</span>
+                  <span>Entity Framework</span>
+                </div>
+                <div className="project-buttons">
+                  <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
+                  <a href="#" className="btn btn-outline-light"><i className="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-lg-4">
+            <div className="project-card">
+              <img src="assets/project1.jpg" className="img-fluid project-image" alt="Business Management System" />
+              <div className="project-content">
+                <h3>Vacation Management System — Academic Project</h3>
                 <p>Developed a web application for managing employee
                   vacation requests using C#, ASP.NET MVC, SQL Server, and
                   Entity Framework</p>
@@ -38,37 +62,13 @@ const Projects = () => {
             <div className="project-card">
               <img src="assets/project1.jpg" className="img-fluid project-image" alt="Business Management System" />
               <div className="project-content">
-                <h3>Administrative Website for a Family Business</h3>
-                <p>Developed an administrative web application for a real
-                  business using C#, ASP.NET MVC, ASP.NET Core, SQL
-                  Server, Entity Framework, HTML, CSS, Bootstrap, and
-                  JavaScript.</p>
+                <h3>Alura-Geek</h3>
+                <p> A simple web page created using HTML and CSS, focusing on clean layout
+                  and responsive design principles. This project demonstrates fundamental
+                  front‑end skills and basic web styling techniques.</p>
                 <div className="project-tech">
-                  <span>C#</span>
-                  <span>ASP.NET Core</span>
-                  <span>SQL Server</span>
-                  <span>Entity Framework</span>
-                </div>
-                <div className="project-buttons">
-                  <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
-                  <a href="#" className="btn btn-outline-light"><i className="bi bi-box-arrow-up-right"></i> Live Demo</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="col-lg-4">
-            <div className="project-card">
-              <img src="assets/project1.jpg" className="img-fluid project-image" alt="Business Management System" />
-              <div className="project-content">
-                <h3>Business Management System</h3>
-                <p>Full-stack web application developed with ASP.NET Core and SQL Server...</p>
-                <div className="project-tech">
-                  <span>C#</span>
-                  <span>ASP.NET Core</span>
-                  <span>SQL Server</span>
-                  <span>Entity Framework</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
                 </div>
                 <div className="project-buttons">
                   <a href="#" className="btn btn-primary"><i className="bi bi-github"></i> GitHub</a>
