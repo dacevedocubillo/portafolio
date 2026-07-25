@@ -15,7 +15,9 @@ const Contact = () => {
               <i className="bi bi-envelope-fill"></i>
               <h4>Email</h4>
               <p>dacevedocubillo@gmail.com</p>
-              <a href="mailto:dacevedocubillo@gmail.com">Send Email</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dacevedocubillo@gmail.com" target="_blank">
+  Send Email
+</a>
             </div>
           </div>
           {/* LinkedIn y GitHub similares */}
