@@ -1,33 +1,17 @@
+import './freelance.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
+import Services from './components/Services';
+import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
-import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience/>
-      <Education/>
-      <Certifications/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-      {/* Back to Top */}
-      <button id="backToTop" className="back-to-top">
-        <i className="bi bi-arrow-up"></i>
-      </button>
-    </>
-  );
+  return <><Navbar/><Hero/><About/><Skills/><Services/><Projects/><Experience/><Education/><Certifications/><Contact/><Footer/></>;
 }
-
 export default App;

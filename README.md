@@ -1,32 +1,44 @@
-# React + TypeScript + Vite
+# Daniela Acevedo — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio for **Daniela Acevedo**, a Junior Software Developer and Freelance Web Developer based in Costa Rica.
 
-Currently, two official plugins are available:
+The site presents my software development background, technical skills, featured projects, professional experience and freelance web services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- Bootstrap & Bootstrap Icons
+- HTML / CSS
+- Git & GitHub
+- GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Work
 
-## Expanding the Oxlint configuration
+- **Administrative Website for a Family Business** — C#, ASP.NET Core/MVC, SQL Server, Entity Framework and JavaScript.
+- **Vacation Management System** — C#, ASP.NET MVC, SQL Server and Entity Framework.
+- **Alura Geek** — responsive front-end project using HTML and CSS.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Freelance Services
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- Responsive business websites
+- Front-end and web development
+- Website updates and maintenance
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Production build: `npm run build`
+
+## Contact
+
+- GitHub: https://github.com/dacevedocubillo
+- LinkedIn: https://www.linkedin.com/in/daniela-acevedo-cubillo
+- Email: dacevedocubillo@gmail.com
+
+© 2026 Daniela Acevedo
